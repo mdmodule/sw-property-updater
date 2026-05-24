@@ -2,7 +2,7 @@
 
 > 🏭 **SolidWorks 零件标准化工作流的一环**——读取**单个已打开文件**的文件名，拆分并自动填写 16 项标准自定义属性表。为后续 PDM、BOM 导出、工程图自动关联打下基础。
 >
-> 📦 **本仓库为单文件版**，如需批量处理多文件的宏，请见 [sw-property-updater-batch](https://github.com/mdmodule/sw-property-updater-batch)。
+> 📦 **本仓库为单文件版** — 如需批量递归处理整个文件夹，请见 **[批量版](https://github.com/mdmodule/sw-property-updater-batch)**。
 
 ![概览](images/overview.png)
 

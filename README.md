@@ -1,8 +1,8 @@
-# SolidWorks 属性智能更新宏 · 单文件版 (Single-File Property Updater)
+﻿# SolidWorks 属性智能更新宏 · 单文件版 (Single-File Property Updater)
 
-> 🏭 **SolidWorks 零件标准化工作流的一环**——读取**单个已打开文件**的文件名，拆分并自动填写 16 项标准自定义属性表。为后续 PDM、BOM 导出、工程图自动关联打下基础。
+>  **SolidWorks 零件标准化工作流的一环**——读取**单个已打开文件**的文件名，拆分并自动填写 16 项标准自定义属性表。为后续 PDM、BOM 导出、工程图自动关联打下基础。
 >
-> 📦 **本仓库为单文件版** — 如需批量递归处理整个文件夹，请见 **[批量版](https://github.com/mdmodule/sw-property-updater-batch)**。
+>  **本仓库为单文件版** — 如需批量递归处理整个文件夹，请见 **[批量版](https://github.com/mdmodule/sw-property-updater-batch)**。
 
 ![概览](images/overview.png)
 
@@ -63,8 +63,8 @@
 
 示例：`底板+MDM-001+V1.0.sldprt`
 
-- ✅ `底板+MDM-001+V1.0` → 自动拆分识别
-- ⚠️ `底板` → 弹出警告，名称=底板，代号和版本留空
+- [OK] `底板+MDM-001+V1.0` → 自动拆分识别
+- [!] `底板` → 弹出警告，名称=底板，代号和版本留空
 
 ## 使用方法
 
@@ -72,7 +72,7 @@
 2. `工具` → `宏` → `运行`，选择 `PropertyUpdater.swp`
 3. 根据弹窗确认执行结果
 
-> 💡 **建议**：将宏添加到 SolidWorks 自定义工具栏或绑定快捷键，实现一键标准化。
+> Tip: **建议**：将宏添加到 SolidWorks 自定义工具栏或绑定快捷键，实现一键标准化。
 
 ## 环境要求
 

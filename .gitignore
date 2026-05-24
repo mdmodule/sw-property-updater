@@ -1,0 +1,8 @@
+# SolidWorks 宏文件
+*.swp
+*.swb
+
+# 临时文件
+~$*
+*.tmp
+Thumbs.db

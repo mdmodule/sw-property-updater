@@ -6,6 +6,8 @@
 
 ![概览](images/overview.png)
 
+![16 项标准属性在工程图标题栏中的对应位置](images/titleblock.png)
+
 ## 核心定位：单文件 · 文件名拆分 → 属性填写
 
 在机械设计标准化流程中，自定义属性是数据链的关键环节。手工填写不仅费时，还容易遗漏或格式不一致。
@@ -79,11 +81,17 @@
 - SolidWorks 2025（理论上兼容 2020+）
 - 启用宏的 SolidWorks 环境
 
-## 安装
+## 下载与安装
 
-1. 下载 `PropertyUpdater.bas`
-2. 在 SolidWorks 中：`工具` → `宏` → `新建` → 粘贴代码 → 保存为 `.swp`
+**直接下载（推荐）**：[PropertyUpdater.swp](https://github.com/mdmodule/sw-property-updater/releases/latest/download/PropertyUpdater.swp) —— 编译好的宏，40 KB
+
+1. 下载 `PropertyUpdater.swp`
+2. 打开 SolidWorks → `工具` → `宏` → `运行` → 选择它
 3. 可选：添加到 SolidWorks 自定义工具栏，绑定快捷键
+
+**想改代码**：下载 `PropertyUpdater.bas` → `工具` → `宏` → `新建` → 粘贴 → 另存为 `.swp`
+
+全部版本见 [Releases](https://github.com/mdmodule/sw-property-updater/releases)。
 
 ## 许可
 
